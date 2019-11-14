@@ -12,7 +12,9 @@ using PizzaOrderApp.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
+//install Authentication.JwtBearer
+//In Startup at services.Addauthentication
+//add addJwtBearer
 namespace PizzaOrderApp
 {
     public class Startup
