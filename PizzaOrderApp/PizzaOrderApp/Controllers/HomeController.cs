@@ -15,6 +15,11 @@ namespace PizzaOrderApp.Controllers
 
         public HomeController(ILogger<HomeController> logger)
         {
+           //my comments to test pull
+           //thanks for reading
+
+            var number = 2 + 3;
+
             _logger = logger;
         }
 
