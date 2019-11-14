@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaOrderApp", "PizzaOrderApp\PizzaOrderApp.csproj", "{14D5CCE9-B8A9-47BD-A666-21DC4212DC0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaOrderAPI", "PizzaOrderAPI\PizzaOrderAPI.csproj", "{E2A7F3D9-A7C2-469B-917D-CF8490637505}"
 EndProject
+Project_Model_Branch
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaOrderAPI", "PizzaOrderAPI\PizzaOrderAPI.csproj", "{E2A7F3D9-A7C2-469B-917D-CF8490637505}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Layers.Models", "Layers.Models\Layers.Models.csproj", "{4B073284-6B9F-46CC-A49F-EA1A1644F14A}"
+
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,14 +17,11 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{14D5CCE9-B8A9-47BD-A666-21DC4212DC0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{14D5CCE9-B8A9-47BD-A666-21DC4212DC0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{14D5CCE9-B8A9-47BD-A666-21DC4212DC0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{14D5CCE9-B8A9-47BD-A666-21DC4212DC0F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E2A7F3D9-A7C2-469B-917D-CF8490637505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E2A7F3D9-A7C2-469B-917D-CF8490637505}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2A7F3D9-A7C2-469B-917D-CF8490637505}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2A7F3D9-A7C2-469B-917D-CF8490637505}.Release|Any CPU.Build.0 = Release|Any CPU
+Project_Model_Branch
 		{4B073284-6B9F-46CC-A49F-EA1A1644F14A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4B073284-6B9F-46CC-A49F-EA1A1644F14A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B073284-6B9F-46CC-A49F-EA1A1644F14A}.Release|Any CPU.ActiveCfg = Release|Any CPU
