@@ -25,11 +25,13 @@ namespace PizzaOrderApp.Controllers
 
         public IActionResult Index()
         {
+            
             return View();
         }
 
         public IActionResult Privacy()
         {
+            //jakes second commit
             return View();
         }
 
