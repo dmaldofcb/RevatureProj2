@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaOrderAPI", "PizzaOrderAPI\PizzaOrderAPI.csproj", "{E2A7F3D9-A7C2-469B-917D-CF8490637505}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Layers.Models", "..\..\..\RevatureProject2\PizzaTut\Layers.Models\Layers.Models.csproj", "{D38DB626-84E1-49D4-9A52-D5ABDF34C98C}"
+Project_Model_Branch
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaOrderAPI", "PizzaOrderAPI\PizzaOrderAPI.csproj", "{E2A7F3D9-A7C2-469B-917D-CF8490637505}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaOrderMVC", "..\..\..\RevatureProject2\PizzaTut\PizzaTut\PizzaOrderMVC.csproj", "{4D7EB46F-E623-4A82-8C63-98337F185E2D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Layers.Models", "Layers.Models\Layers.Models.csproj", "{4B073284-6B9F-46CC-A49F-EA1A1644F14A}"
+
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +21,11 @@ Global
 		{E2A7F3D9-A7C2-469B-917D-CF8490637505}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2A7F3D9-A7C2-469B-917D-CF8490637505}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2A7F3D9-A7C2-469B-917D-CF8490637505}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D38DB626-84E1-49D4-9A52-D5ABDF34C98C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D38DB626-84E1-49D4-9A52-D5ABDF34C98C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D38DB626-84E1-49D4-9A52-D5ABDF34C98C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D38DB626-84E1-49D4-9A52-D5ABDF34C98C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4D7EB46F-E623-4A82-8C63-98337F185E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4D7EB46F-E623-4A82-8C63-98337F185E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4D7EB46F-E623-4A82-8C63-98337F185E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4D7EB46F-E623-4A82-8C63-98337F185E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+Project_Model_Branch
+		{4B073284-6B9F-46CC-A49F-EA1A1644F14A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B073284-6B9F-46CC-A49F-EA1A1644F14A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B073284-6B9F-46CC-A49F-EA1A1644F14A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B073284-6B9F-46CC-A49F-EA1A1644F14A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
