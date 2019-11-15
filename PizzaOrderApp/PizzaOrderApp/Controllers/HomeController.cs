@@ -17,17 +17,17 @@ namespace PizzaOrderApp.Controllers
         {
            //my comments to test pull
            //thanks for reading
-           //testset
            //jake comment
             var number = 2 + 3;
-
 
             _logger = logger;
         }
 
         public IActionResult Index()
         {
+            
             //james comments
+
             return View();
         }
 
@@ -40,6 +40,7 @@ namespace PizzaOrderApp.Controllers
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
+            //logans comment
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
