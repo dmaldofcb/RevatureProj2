@@ -12,6 +12,8 @@ using PizzaOrderApp.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+Project_Model_Branch
+using PizzaTut.Models;
 
 namespace PizzaOrderApp
 {
@@ -34,6 +36,10 @@ namespace PizzaOrderApp
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            services.AddDbContext<MyDbContext>(options =>
+               options.UseSqlServer(
+                   Configuration.GetConnectionString("MyDbContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
